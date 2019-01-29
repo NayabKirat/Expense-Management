@@ -1,0 +1,29 @@
+
+.navs{
+    position: fixed;
+    padding: 5px 0;
+    width: 100%;
+    background: $bg;
+    margin-top: -20px;
+    // background-image: linear-gradient(315deg, #f5f0f0 25%, transparent 25%), 
+	// 					linear-gradient(45deg, #f5f0f0 25%, transparent 25%);
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    box-shadow: 1px 1px 20px 1px $bg;
+   img{
+       margin-left: 60px;
+   }
+    ul{
+        display: flex;
+    justify-content:flex-end;
+    width: 1200px;
+        li{
+            float: left;
+            padding:22px 20px;
+            list-style: none;
+font-size: 19px;
+
+        }
+    }
+}

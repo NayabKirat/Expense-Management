@@ -1,0 +1,64 @@
+
+
+.news{
+    padding: 80px 0;
+    width: 100%;
+    height: 85vh;
+    color: black;
+    .news-container{
+
+        color: black;
+        width: 77%;
+        height: 90vh;
+        padding: 20px 0;
+        margin: 0 auto;
+        h1,p{
+            color: black;
+            text-align: center;
+            padding: 10px;
+        }
+        ul{
+            li{
+                list-style: none;
+            height: 400px;
+                width:360px;
+                border: 1px solid gray;
+                margin-right: 22px;
+                float: left;
+                margin-top: 60px;
+                position: relative;
+                border-radius: 10px;
+                .placethumb{
+                  height: 280px;
+                  width: 100%;
+                    img{
+                        position: absolute;
+                        height: 280px;
+                        width: 100%;
+                        border-radius: 10px;
+                        filter: brightness(0.7)
+                    }
+                    button{
+                        position: absolute;
+                        background: $bg;
+                        border-radius: 10px;
+                        left:260px;top:20px;
+                    }
+                    h2,h3{
+                        position: absolute;
+                        top:180px;
+                        left:20px;
+                    }
+                    h2{
+                        top:210px;
+                    }
+                }  
+                .h2{
+                    color: black;
+                    text-align: center;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}

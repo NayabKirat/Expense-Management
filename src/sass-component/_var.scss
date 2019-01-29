@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+// color: white;
+}
+
+$font: 'Playfair Display', serif;
+$bg:#FD614A;
+$bg2: #FE8A4C;
+$color1:white;
+$color:  #FE8A4C;
+
+h1{
+    font-size: 47px;
+}
+button{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+
+// background-image: linear-gradient(315deg, #ffffff 25%, transparent 25%), 
+// 						linear-gradient(45deg, #ffffff 25%, transparent 25%);
+		

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white; }
+
+.nav {
+  padding: 25px 0;
+  width: 100%;
+  background: linear-gradient(-134deg, #ff7d09 0%, #3023AE 100%);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row; }
+  .nav ul li {
+    float: left;
+    padding: 10px 20px;
+    list-style: none;
+    font-size: 19px; }
+
+/*# sourceMappingURL=styles.css.map*/
